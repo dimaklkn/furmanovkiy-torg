@@ -9,7 +9,7 @@ export default function Home() {
       <main>
         <CardList />
         <div
-          className="popup-media"
+          className="popup-media events-result"
           style={{ display: picture ? "block" : "none" }}
         >
           <span onClick={() => setPicture(null)}>&times;</span>

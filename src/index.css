@@ -169,8 +169,9 @@ goTop
  z-index: 3;
  position: fixed;
  left: 50%;
+ transform: translate(-50%, -50%);
  bottom: 2%;
- opacity: 0.8;
+ opacity: 0.6;
  
 }
 
@@ -449,11 +450,27 @@ About
   gap: 2rem;
 }
 
+.about-section h1 {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+}
+
+.about-section h4 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
 .about-section p {
-  
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
   line-height: 2rem;
   font-weight: 400;
   letter-spacing: 2px;
+}
+
+.about-section img {
+  margin-bottom: 1rem;
 }
 
 

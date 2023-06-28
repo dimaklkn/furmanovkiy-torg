@@ -5,7 +5,7 @@ import { faAnglesUp } from "@fortawesome/free-solid-svg-icons";
 const ScrollTop = () => {
   const [isVisible, setIsVisible] = useState(false);
   const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
+    if (window.pageYOffset > 800) {
       setIsVisible(true);
     } else {
       setIsVisible(false);

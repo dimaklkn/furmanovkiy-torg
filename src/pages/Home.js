@@ -1,10 +1,11 @@
 import React from "react";
 import Presentation from "../components/Presentation";
+import ScrollTop from "../components/ScrollTop";
 import presimage1 from "../images/presimage1.jpg";
 import Slider from "../components/Slider";
 import sliderimage1 from "../images/sliderimage1.jpg";
-import img25 from "../images/img25.jpg";
-import img26 from "../images/img26.jpg";
+import sliderimage2 from "../images/sliderimage2.jpg";
+import img8 from "../images/img8.jpg";
 
 export default function Home() {
   return (
@@ -12,21 +13,22 @@ export default function Home() {
       <main>
         <Presentation imageSrc={presimage1} />
         <Slider
-          imageSrc={sliderimage1}
+          imageSrc={sliderimage2}
           title="Первый"
-          summary="Первые магазины самообслуживания в городе"
+          summary="Одни из первых магазинов самообслуживания в СССР"
         />
         <Slider
-          imageSrc={img25}
+          imageSrc={sliderimage1}
           title="Кафе и Бары"
-          summary="Во многих магазинах открывались кафе и бары для привлечения клиентов"
+          summary="Самое вкусное мороженое и коктейли для посетителей"
           flipped={true}
         />
         <Slider
-          imageSrc={img26}
-          title="Более 100 магазинов"
-          summary="Спортивные и хозяйственные товары, гастрономы, одежда и мебель"
+          imageSrc={img8}
+          title="Аутентичный дизайн"
+          summary="Неповторимый и уникальный стиль, созданный художниками торга"
         />
+        <ScrollTop />
       </main>
     </>
   );
