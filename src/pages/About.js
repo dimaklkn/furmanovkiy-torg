@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollTop from "../components/ScrollTop";
 import pleshanov from "../images/pleshanov.jpg";
+import torgvideo from "../images/torgvideo.mp4";
 
 export default function About() {
   return (
@@ -10,6 +11,7 @@ export default function About() {
           <h1>История фурмановского торга</h1>
 
           <h4>Из отстающих в лидеры торговли</h4>
+          <iframe src={torgvideo} title="Furmanovskiy torg" />
           <p>
             &emsp; До середины 60-х гг. ХХ века фурмановский торг из общей массы
             ничем не выделялся, с государственным планом не справлялся и
