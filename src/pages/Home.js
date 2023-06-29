@@ -5,6 +5,7 @@ import presimage1 from "../images/presimage1.jpg";
 import Slider from "../components/Slider";
 import sliderimage1 from "../images/sliderimage1.jpg";
 import sliderimage2 from "../images/sliderimage2.jpg";
+import sliderimage3 from "../images/sliderimage3.jpg";
 import img8 from "../images/img8.jpg";
 
 export default function Home() {
@@ -27,6 +28,12 @@ export default function Home() {
           imageSrc={img8}
           title="Аутентичный дизайн"
           summary="Неповторимый и уникальный стиль, созданный художниками торга"
+        />
+        <Slider
+          imageSrc={sliderimage3}
+          title="Широкий ассортимент"
+          summary="Продукты, Мебель, спортивные и хозяйственные товары"
+          flipped={true}
         />
         <ScrollTop />
       </main>
