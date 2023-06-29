@@ -32,7 +32,7 @@ export default function Home() {
         <Slider
           imageSrc={sliderimage3}
           title="Широкий ассортимент"
-          summary="Продукты, Мебель, спортивные и хозяйственные товары"
+          summary="Продукты, мебель, спортивные и хозяйственные товары"
           flipped={true}
         />
         <ScrollTop />
