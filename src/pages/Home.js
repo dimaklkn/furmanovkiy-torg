@@ -6,7 +6,7 @@ import Slider from "../components/Slider";
 import sliderimage1 from "../images/sliderimage1.jpg";
 import sliderimage2 from "../images/sliderimage2.jpg";
 import sliderimage3 from "../images/sliderimage3.jpg";
-import img8 from "../images/img8.jpg";
+import sliderimage4 from "../images/sliderimage4.jpg";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
           flipped={true}
         />
         <Slider
-          imageSrc={img8}
+          imageSrc={sliderimage4}
           title="Аутентичный дизайн"
           summary="Неповторимый и уникальный стиль, созданный художниками торга"
         />
