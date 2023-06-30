@@ -7,6 +7,7 @@ import sliderimage1 from "../images/sliderimage1.jpg";
 import sliderimage2 from "../images/sliderimage2.jpg";
 import sliderimage3 from "../images/sliderimage3.jpg";
 import sliderimage4 from "../images/sliderimage4.jpg";
+import img58 from "../images/img57.jpg";
 
 export default function Home() {
   return (
@@ -34,6 +35,11 @@ export default function Home() {
           title="Широкий ассортимент"
           summary="Продукты, мебель, спортивные и хозяйственные товары"
           flipped={true}
+        />
+        <Slider
+          imageSrc={img58}
+          title="Отзывчивый и квалифицированный персонал"
+          summary="Обучение торговым профессиям внутри организации"
         />
         <ScrollTop />
       </main>
